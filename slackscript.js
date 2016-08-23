@@ -6,7 +6,7 @@ slack.on("slashCommand", function(cmd) {
 		});
 
 	cmd.on("goodbye")
-		.description("says hello")
+		.description("says goodbye")
 		.action(function(params) {
 			cmd.reply("goodbye, "+cmd.userName);
 		});
